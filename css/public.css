@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: calc((100*100vw) / 750); 
+}
+
+a{
+    text-decoration: none;
+}
+/* 各页面内容 */
+.content{
+    padding-bottom: 1rem;
+}

@@ -1,0 +1,125 @@
+/* 顶部导航 */
+.top1{
+    width: 100%;
+    height: .88rem;
+    background-color: #C82519;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .1rem .2rem;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.top1 .icon-fenlei1{
+    color: #fff;
+    font-size: .4rem;
+}
+.top1 .search{
+    width: 5.46rem;
+    height: .6rem;
+    background-color: #fff;
+    border-radius: .3rem;
+    font-size: .24rem;
+    line-height: .6rem;
+    padding: 0 .24rem;
+    box-sizing: border-box;
+}
+.search .icon-jingdong{
+    color: #C82519;
+    font-weight: bolder;
+    font-size: .36rem;
+    padding-left: .10rem;
+}
+.search span{
+    font-size: .30rem;
+    color: #DDDDDD;
+}
+.search a{
+    color: #757575;
+}
+.top1 .on{
+    font-size: .28rem;
+    color: #fff;
+}
+/* 首页内容 */
+.con1{
+    /* width: 100%; */
+    height: 2rem;
+    background-color: #C82519;
+    border-radius: 0 0 50% 50%;
+    margin-top: .88rem;
+    margin-bottom: .9rem;
+    position: relative;
+}
+.con1 img{
+    width: 7rem;
+    height: 2.8rem;
+    border-radius: .15rem;
+    position: absolute;
+    top: 0;
+    left: .25rem;
+}
+.con2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    padding: .1rem .1rem;
+}
+.con2 a{
+    font-size: .24rem;
+    color: #838383;
+    padding: .1rem 0;
+}
+.con2 img{
+    width: .8rem;
+    height: .8rem;
+}
+.con2 p{
+    width: 1.4rem;
+    height: .36rem;
+}
+.con3{
+    background-color: #F0F2F5;
+    padding: 0 .16rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.con3 .p-top{
+    width: 100%;
+    font-size: .48rem;
+    font-weight: bold;
+    color: #3B99DD;
+    text-align: center;
+    background-color: #fff;
+    margin: .12rem 0;
+}
+.con3 img{
+    width: 3.52rem;
+    height: 3.52rem;
+}
+.con3 a{
+    font-size: .24rem;
+    color: #232326;
+    width: 3.52rem;
+    height: 5rem;
+    background-color: #fff;
+    margin-bottom: .1rem;
+}
+.con3 .p1{
+    height: .6rem;
+    overflow: hidden;
+}
+.con3 .price{
+    font-size: .32rem;
+    color: #F23030;
+    padding-top: .2rem;
+}
+/* 底部导航见bottom.css */
+.bottom .sy{
+    color: #E43130;
+}
